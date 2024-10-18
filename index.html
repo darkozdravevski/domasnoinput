@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prijava DLD-GDP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="images/unnamed.png" alt="UJP" />
+      <h2>
+        ГОДИШНА ДАНОЧНА ПРИЈАВА
+        <br />
+        за утврдување на данокот на личен доход
+      </h2>
+    </div>
+
+    <hr />
+
+    <div class="container">
+      <div class="left-text">
+        <label>Име:</label>
+        <input type="name" required />
+        <br />
+        <br />
+        <label>Презиме:</label>
+        <input type="surname" required />
+        <br />
+        <br />
+        <label for="address">Адреса на живеење:</label>
+        <textarea id="address" name="address" required></textarea>
+        <br />
+        <br />
+        <label>ЕМБГ</label>
+        <input type="number" required minlength="13" maxlength="13" />
+        <br />
+        <br />
+        <label>Телефон:</label>
+        <select name="number" id="">
+          <option value="number">+389</option>
+          <input type="number" required />
+        </select>
+        <br />
+        <br />
+        <label>Е-пошта:</label>
+        <input type="email" required />
+      </div>
+
+      <div class="right-text">
+        <label>Датум и број</label>
+        <textarea></textarea>
+        <br />
+        <br />
+        <label>Даночен период</label>
+        <br />
+        <label for="from">од</label>
+        <input type="text" id="from" name="from" required />
+        <label for="to">до</label>
+        <input type="text" id="to" name="to" required />
+        <br />
+        <br />
+        <label>Датум на издавање</label>
+        <input type="date" />
+        <br />
+        <br />
+        <label>Рок за потврдување</label>
+        <textarea></textarea>
+        <br />
+        <br />
+        <label>Фолио број</label>
+        <input type="number" />
+        <br />
+        <br />
+        <label>Службена исправка</label>
+        <input type="checkbox" />
+        <br />
+        <br />
+        <button type="submit">Потврди</button>
+      </div>
+    </div>
+    <hr />
+    <h3>
+      <strong
+        >За корекција на пополнетите податоци внесете ги точните износи во
+        празните полиња под податоците пополнети од Управата за јавни приходи, а
+        во спротивно оставете ги непополнети.</strong
+      >
+    </h3>
+  </body>
+</html>
